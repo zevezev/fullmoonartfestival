@@ -90,9 +90,9 @@ function App() {
             <a href="https://www.zevizenberg.com/" target="_blank">
               Zev Izenberg
             </a>
-            , a painter and collaborative artist based in Brooklyn, and their
-            growing community. The Flowering Moon is the 4th Full Moon Art
-            Festival out of 12.
+            , a painter, software engineer, and collaborative artist based in
+            Brooklyn, and their growing community. The Flowering Moon is the 4th
+            Full Moon Art Festival out of 12.
           </div>
           <div>Reach them at zevizenberg@gmail.com</div>
         </div>
