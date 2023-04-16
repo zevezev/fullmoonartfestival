@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fullmoonartfestival/static/css/main.6d03624b.css",
+    "main.js": "/fullmoonartfestival/static/js/main.050f493a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/fullmoonartfestival/static/js/787.28cb0dcd.chunk.js",
+    "static/media/vale.jpeg": "/fullmoonartfestival/static/media/vale.70f137be9b3278cb5890.jpeg",
+    "index.html": "/fullmoonartfestival/index.html",
+    "main.6d03624b.css.map": "/fullmoonartfestival/static/css/main.6d03624b.css.map",
+    "main.050f493a.js.map": "/fullmoonartfestival/static/js/main.050f493a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/fullmoonartfestival/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d03624b.css",
+    "static/js/main.050f493a.js"
+  ]
+}
