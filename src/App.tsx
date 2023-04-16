@@ -29,7 +29,10 @@ function App() {
           <br />
           <div>May 6, 5pm - Sundown</div>
           <a href="https://goo.gl/maps/mwJgA6HgPR8tcEQX7" target="_blank">
-            <div style={{ color: "lightblue" }}>Location</div>
+            <div style={{ color: "lightblue" }}>
+              Location: Fountain beds near the Vale in Prospect Park, Brooklyn
+            </div>
+            See screenshots below.
           </a>
           <div>
             This full moon, we will gather at the fountain beds near the Vale in
@@ -71,6 +74,16 @@ function App() {
           <div className="map-image map-2" />
           <div className="map-image map-3" />
           <div className="map-image map-4" />
+          <div>
+            The Full Moon Art Festival is an ongoing project by&nbsp;
+            <a href="https://www.zevizenberg.com/" target="_blank">
+              Zev Izenberg
+            </a>
+            , a painter and collaborative artist based in Brooklyn, and their
+            growing community. The Flowering Moon is the 4th Full Moon Art
+            Festival out of 12.
+          </div>
+          <div>Reach them at zevizenberg@gmail.com</div>
         </div>
       </header>
     </div>
