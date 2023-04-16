@@ -29,10 +29,9 @@ function App() {
           <br />
           <div>May 6, 5pm - Sundown</div>
           <a href="https://goo.gl/maps/mwJgA6HgPR8tcEQX7" target="_blank">
-            <div style={{ color: "lightblue" }}>
-              Location: Fountain beds near the Vale in Prospect Park, Brooklyn
-            </div>
-            See screenshots below.
+            Location: Fountain beds near the Vale in Prospect Park, Brooklyn
+            <br />
+            Click here or see screenshots below.
           </a>
           <div>
             This full moon, we will gather at the fountain beds near the Vale in
@@ -74,6 +73,18 @@ function App() {
           <div className="map-image map-2" />
           <div className="map-image map-3" />
           <div className="map-image map-4" />
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScWur-y7b9uSxZs4a2ZtlbhSuJ5FSjG-tEGRkRg2jHkHEtFog/viewform?usp=sf_link"
+            target="_blank"
+          >
+            Join our email list
+          </a>
+          <a
+            href="https://venmo.com/code?user_id=2072063309250560702&created=1681673599.09571&printed=1"
+            target="_blank"
+          >
+            Support
+          </a>
           <div>
             The Full Moon Art Festival is an ongoing project by&nbsp;
             <a href="https://www.zevizenberg.com/" target="_blank">
