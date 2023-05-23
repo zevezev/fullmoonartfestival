@@ -14,23 +14,12 @@
 }
 
 a{
-  color:#E6F288;
+  color:rgb(230, 242, 136);
   text-decoration: none;
 }
 
 .App-header {
-  background-image: url("../public/vale.jpeg");
-  background-color: #282c34; 
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 .map-image {
  background-color: #282c34; 
@@ -45,31 +34,22 @@ a{
   
 }
 .map-1{
-    background-image: url("../public/IMG_7871.PNG");
+    background-image: url("../public/images/flowering_moon/IMG_7871.PNG");
 }
 .map-2{
-    background-image: url("../public/IMG_7872.PNG");
+    background-image: url("../public/images/flowering_moon/IMG_7872.PNG");
 }
 .map-3{
-    background-image: url("../public/IMG_7873.PNG");
+    background-image: url("../public/images/flowering_moon/IMG_7873.PNG");
 }
 .map-4{
-    background-image: url("../public/IMG_7874.PNG");
+    background-image: url("../public/images/flowering_moon/IMG_7874.PNG");
 }
 .map-clover{
-      background-image: url("../public/IMG_7866.jpg");
+      background-image: url("../public/images/flowering_moon/IMG_7866.jpg");
 
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
