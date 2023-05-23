@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/fullmoonartfestival/static/css/main.5d576313.css",
-    "main.js": "/fullmoonartfestival/static/js/main.d03dc203.js",
-    "static/js/787.28cb0dcd.chunk.js": "/fullmoonartfestival/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/fullmoonartfestival/static/css/main.4c35d380.css",
+    "main.js": "/fullmoonartfestival/static/js/main.154a53c2.js",
+    "static/js/651.a543a249.chunk.js": "/fullmoonartfestival/static/js/651.a543a249.chunk.js",
     "static/media/IMG_7874.PNG": "/fullmoonartfestival/static/media/IMG_7874.a72aab235ab4a66b95df.PNG",
     "static/media/IMG_7871.PNG": "/fullmoonartfestival/static/media/IMG_7871.76510846580833fcb7db.PNG",
     "static/media/IMG_7872.PNG": "/fullmoonartfestival/static/media/IMG_7872.a18a3c427055c506e210.PNG",
     "static/media/IMG_7873.PNG": "/fullmoonartfestival/static/media/IMG_7873.f1a8ad76db37667037b7.PNG",
     "static/media/IMG_7866.jpg": "/fullmoonartfestival/static/media/IMG_7866.c6998b50e471fe2dfe3a.jpg",
-    "static/media/vale.jpeg": "/fullmoonartfestival/static/media/vale.70f137be9b3278cb5890.jpeg",
+    "static/media/strawberry_suspension.jpeg": "/fullmoonartfestival/static/media/strawberry_suspension.17a8308ebe9741f89c8d.jpeg",
     "index.html": "/fullmoonartfestival/index.html",
-    "main.5d576313.css.map": "/fullmoonartfestival/static/css/main.5d576313.css.map",
-    "main.d03dc203.js.map": "/fullmoonartfestival/static/js/main.d03dc203.js.map",
-    "787.28cb0dcd.chunk.js.map": "/fullmoonartfestival/static/js/787.28cb0dcd.chunk.js.map"
+    "main.4c35d380.css.map": "/fullmoonartfestival/static/css/main.4c35d380.css.map",
+    "main.154a53c2.js.map": "/fullmoonartfestival/static/js/main.154a53c2.js.map",
+    "651.a543a249.chunk.js.map": "/fullmoonartfestival/static/js/651.a543a249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d576313.css",
-    "static/js/main.d03dc203.js"
+    "static/css/main.4c35d380.css",
+    "static/js/main.154a53c2.js"
   ]
 }
