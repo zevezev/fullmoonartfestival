@@ -27,6 +27,10 @@ export const StrawberryMoon = () => {
         </a>
       </div>
       <div>
+        If you're running late, come meet us at the&nbsp;
+        <a href="https://goo.gl/maps/CEhWwhfcgRZPDMECA">top of the park.</a>
+      </div>
+      <div>
         This Strawberry Full Moon, we will ascend to the circle at the top of
         San Francisco to do art together! Please bring a fruit and any materials
         you'd like in the space.
