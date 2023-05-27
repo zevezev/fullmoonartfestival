@@ -18,7 +18,7 @@ export const StrawberryMoon = () => {
         alt="strawberry suspension"
       />
       <br />
-      <div>Time: July 4, 5pm - Sundown</div>
+      <div>Time: June 4, 5pm - Sundown</div>
       <div>
         Location: Buena Vista Park, San Francisco. Meet at the East entrance at
         Buena Vista Ave E and Duboce Ave.&nbsp;
