@@ -18,7 +18,7 @@ export const StrawberryMoon = () => {
         alt="strawberry suspension"
       />
       <br />
-      <div>Time: June 4, 5pm - Sundown</div>
+      <div>Time: June 4, 7pm - Sundown</div>
       <div>
         Location: Buena Vista Park, San Francisco. Meet at the East entrance at
         Buena Vista Ave E and Duboce Ave.&nbsp;
@@ -33,7 +33,7 @@ export const StrawberryMoon = () => {
       <div>
         This Strawberry Full Moon, we will ascend to the circle at the top of
         San Francisco to do art together! Please bring a fruit and any materials
-        you'd like in the space.
+        you'd like in the space. Dress warmly as it will get cold when the sun goes down!
       </div>
       <div>
         This is a time to reflect, revel, reconnect, and meet new friends and
