@@ -2,7 +2,7 @@ export const FloweringMoon = () => {
   return (
     <>
       <div style={{ textAlign: "center", fontSize: "36px", color: "#E6F288" }}>
-        Full Moon Art Festival: Flowering Moon
+        Full Moon Art Festival: Flowering Moon 
       </div>
       <div className="map-image map-clover" />
       <br />
