@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/fullmoonartfestival/static/css/main.4c35d380.css",
-    "main.js": "/fullmoonartfestival/static/js/main.61c3f47d.js",
+    "main.js": "/fullmoonartfestival/static/js/main.283fed00.js",
     "static/js/651.a543a249.chunk.js": "/fullmoonartfestival/static/js/651.a543a249.chunk.js",
     "static/media/IMG_7874.PNG": "/fullmoonartfestival/static/media/IMG_7874.a72aab235ab4a66b95df.PNG",
     "static/media/IMG_7871.PNG": "/fullmoonartfestival/static/media/IMG_7871.76510846580833fcb7db.PNG",
     "static/media/IMG_7872.PNG": "/fullmoonartfestival/static/media/IMG_7872.a18a3c427055c506e210.PNG",
     "static/media/IMG_7873.PNG": "/fullmoonartfestival/static/media/IMG_7873.f1a8ad76db37667037b7.PNG",
     "static/media/IMG_7866.jpg": "/fullmoonartfestival/static/media/IMG_7866.c6998b50e471fe2dfe3a.jpg",
+    "static/media/vale.jpeg": "/fullmoonartfestival/static/media/vale.70f137be9b3278cb5890.jpeg",
     "static/media/strawberry_suspension.jpeg": "/fullmoonartfestival/static/media/strawberry_suspension.17a8308ebe9741f89c8d.jpeg",
+    "static/media/bike_spirit.jpeg": "/fullmoonartfestival/static/media/bike_spirit.9518c19093fd37c06303.jpeg",
     "index.html": "/fullmoonartfestival/index.html",
     "main.4c35d380.css.map": "/fullmoonartfestival/static/css/main.4c35d380.css.map",
-    "main.61c3f47d.js.map": "/fullmoonartfestival/static/js/main.61c3f47d.js.map",
+    "main.283fed00.js.map": "/fullmoonartfestival/static/js/main.283fed00.js.map",
     "651.a543a249.chunk.js.map": "/fullmoonartfestival/static/js/651.a543a249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c35d380.css",
-    "static/js/main.61c3f47d.js"
+    "static/js/main.283fed00.js"
   ]
 }
