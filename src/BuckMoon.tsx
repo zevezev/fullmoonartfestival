@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import strawberrySuspension from "./images/strawberry_suspension.jpeg";
-export const StrawberryMoon = () => {
+import bikeSpirit from "./images/bike_spirit.jpeg";
+export const BuckMoon = () => {
   return (
     <Strawberry>
       <div
@@ -10,30 +10,25 @@ export const StrawberryMoon = () => {
           color: "rgb(238, 147, 171)",
         }}
       >
-        Full Moon Art Festival: Strawberry Moon
+        Full Moon Art Festival: Buck Moon
       </div>
       <img
         style={{ maxWidth: "100%", maxHeight: "100%" }}
-        src={strawberrySuspension}
-        alt="strawberry suspension"
+        src={bikeSpirit}
+        alt="bike spirit"
       />
       <br />
       <div>Time: June 4, 5pm - Sundown</div>
       <div>
-        Location: Buena Vista Park, San Francisco. Meet at the East entrance at
-        Buena Vista Ave E and Duboce Ave.&nbsp;
-        <a href="https://goo.gl/maps/nDuZPiBAwxNyDjYs9" target="_blank">
+        Location: TBD
+        {/* <a href="" target="_blank">
           Click here to see on the map!
-        </a>
+        </a> */}
       </div>
+      <div>If you're running late, come meet us at</div>
       <div>
-        If you're running late, come meet us at the&nbsp;
-        <a href="https://goo.gl/maps/CEhWwhfcgRZPDMECA">top of the park.</a>
-      </div>
-      <div>
-        This Strawberry Full Moon, we will ascend to the circle at the top of
-        San Francisco to do art together! Please bring a fruit and any materials
-        you'd like in the space.
+        This Buck Full Moon, we will gather at TBD to watch fireworks and do art
+        together! Please bring a hat and any materials you'd like in the space.
       </div>
       <div>
         This is a time to reflect, revel, reconnect, and meet new friends and
@@ -55,20 +50,21 @@ export const StrawberryMoon = () => {
       >
         Join our email list
       </a>
-      <a
+      {/* make a patreon or ko-fi or something */}
+      {/* <a
         href="https://venmo.com/code?user_id=2072063309250560702&created=1681673599.09571&printed=1"
         target="_blank"
       >
         Support the project
-      </a>
+      </a> */}
       <div>
         The Full Moon Art Festival is an ongoing project by&nbsp;
         <a href="https://www.zevizenberg.com/" target="_blank">
           Zev Izenberg
         </a>
         , a painter, software engineer, and collaborative artist based in
-        Brooklyn, and their growing community. The Strawberry Moon is the 5th
-        Full Moon Art Festival out of 12.
+        Brooklyn, and their growing community. The Buck Moon is the 6th Full
+        Moon Art Festival out of 12.
       </div>
       <div>Reach them at zevizenberg@gmail.com</div>
     </Strawberry>
