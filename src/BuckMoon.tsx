@@ -10,7 +10,7 @@ export const BuckMoon = () => {
           color: "rgb(238, 147, 171)",
         }}
       >
-        Full Moon Art Festival: Buck Moon
+        Buck Moon Clothing Swap & Mod + Art Jam
       </div>
       <img
         style={{ maxWidth: "100%", maxHeight: "100%" }}
@@ -18,18 +18,33 @@ export const BuckMoon = () => {
         alt="bike spirit"
       />
       <br />
-      <div>Time: June 4, 5pm - Sundown</div>
+      <div>Time: July 4, 6:30pm </div>
+      {/* options:
+      July 1 
+      July 4
+       */}
       <div>
-        Location: TBD
+        Location: Brooklyn Bridge Park pier 3
         {/* <a href="" target="_blank">
           Click here to see on the map!
         </a> */}
       </div>
-      <div>If you're running late, come meet us at</div>
       <div>
-        This Buck Full Moon, we will gather at TBD to watch fireworks and do art
-        together! Please bring a hat and any materials you'd like in the space.
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfi2Xk7Kdl5z5hKa12C1CEFdHg4xiEn9XO158ldFt6EXsC31g/viewform?usp=sf_link"
+          target="_blank"
+        >
+          Enter your phone number
+        </a>{" "}
+        for event updates!
       </div>
+      <div>
+        This Buck Full Moon, we will gather at Fort Greene Park. Please bring
+        any art supplies you want in the space + some clothes to swap! Theme is
+        modifying clothes, but we can work on whatever we want. I'll stay til
+        the fireworks at 9, feel free to stick around for that!
+      </div>
+      {/* options: clothing swap & mod / art jam in the park, then going to fireworks */}
       <div>
         This is a time to reflect, revel, reconnect, and meet new friends and
         collaborators.
