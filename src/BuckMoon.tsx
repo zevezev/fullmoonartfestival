@@ -18,13 +18,14 @@ export const BuckMoon = () => {
         alt="bike spirit"
       />
       <br />
-      <div>Time: July 4, 6:30pm </div>
+      <div>Time: July 3, 6:30pm </div>
       {/* options:
       July 1 
       July 4
        */}
       <div>
-        Location: Brooklyn Bridge Park pier 3
+        Location: Fort Greene Park, at the DeKalb Ave and Washington Park
+        entrance. If you arrive late, find us in the open grassy area.
         {/* <a href="" target="_blank">
           Click here to see on the map!
         </a> */}
@@ -40,9 +41,9 @@ export const BuckMoon = () => {
       </div>
       <div>
         This Buck Full Moon, we will gather at Fort Greene Park. Please bring
-        any art supplies you want in the space + some clothes to swap! Theme is
-        modifying clothes, but we can work on whatever we want. I'll stay til
-        the fireworks at 9, feel free to stick around for that!
+        any art & music materials you want in the space + some clothes to swap!
+        Theme is modifying clothes, but feel free to draw or work on whatever
+        else you want.
       </div>
       {/* options: clothing swap & mod / art jam in the park, then going to fireworks */}
       <div>
