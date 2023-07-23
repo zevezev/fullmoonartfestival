@@ -7,13 +7,28 @@ import ValeImage from "./images/vale.jpeg";
 import styled from "styled-components";
 import { BuckMoon } from "./BuckMoon";
 import { SturgeonMoon } from "./SturgeonMoon";
-type SelectedMoon = "strawberry" | "flowering" | "buck" | "sturgeon";
+import { SnowMoon } from "./SnowMoon";
+import { PinkMoon } from "./PinkMoon";
+import { WormMoon } from "./WormMoon";
+// TODO add routing so people can link to pages they participated in
+
+type SelectedMoon =
+  | "snow"
+  | "worm"
+  | "pink"
+  | "strawberry"
+  | "flowering"
+  | "buck"
+  | "sturgeon";
 
 const moonMap: { [key: string]: ReactNode } = {
   strawberry: <StrawberryMoon />,
   flowering: <FloweringMoon />,
   buck: <BuckMoon />,
   sturgeon: <SturgeonMoon />,
+  snow: <SnowMoon />,
+  pink: <PinkMoon />,
+  worm: <WormMoon />,
 };
 function App() {
   const [moon, setMoon] = useState<SelectedMoon>("sturgeon");
@@ -79,6 +94,30 @@ const MoonMenu: React.FC<MoonMenuProps> = ({
       }}
     >
       <MoonSelectButton
+        show={selectedMoon === "snow" || isOpen}
+        selected={selectedMoon === "snow"}
+        background={"#7bc3ff"}
+        onClick={() => onClickMoonButton("snow")}
+      >
+        Snow Moon
+      </MoonSelectButton>
+      <MoonSelectButton
+        show={selectedMoon === "worm" || isOpen}
+        selected={selectedMoon === "worm"}
+        background={"#ff8f4e"}
+        onClick={() => onClickMoonButton("worm")}
+      >
+        Worm Moon
+      </MoonSelectButton>
+      <MoonSelectButton
+        show={selectedMoon === "pink" || isOpen}
+        selected={selectedMoon === "pink"}
+        background={"#ff38b9"}
+        onClick={() => onClickMoonButton("pink")}
+      >
+        Pink Moon
+      </MoonSelectButton>
+      <MoonSelectButton
         show={selectedMoon === "flowering" || isOpen}
         selected={selectedMoon === "flowering"}
         background="#f3ff95"
@@ -89,7 +128,7 @@ const MoonMenu: React.FC<MoonMenuProps> = ({
       <MoonSelectButton
         show={selectedMoon === "strawberry" || isOpen}
         selected={selectedMoon === "strawberry"}
-        background="#ff9090"
+        background="#fc7a7a"
         onClick={() => onClickMoonButton("strawberry")}
       >
         Strawberry Moon
@@ -145,6 +184,9 @@ const moonCSS: { [key in SelectedMoon]: string } = {
   flowering: `background-image: url(${ValeImage});`,
   buck: `background-color: black;`,
   sturgeon: ` background-color: #1a0540;`,
+  pink: ` background-color: #1a0540;`,
+  worm: ` background-color: #1a0540;`,
+  snow: ` background-color: #1a0540;`,
 };
 
 type BackdropProps = {
