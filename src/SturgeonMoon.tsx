@@ -16,15 +16,16 @@ export const SturgeonMoon = () => {
         open to any artist with a work to share.
       </div>
       <div>
-        Enter your email:{" "}
-        <input
+        Contact Zev if you want to come, either send an email to
+        zevizenberg@gmail.com or message me on instagram or facebook!
+        {/* <input
           type="email"
           onChange={(e) => onChangeEmail(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter") onSubmitEmail();
           }}
         ></input>
-        <button onClick={onSubmitEmail}>RSVP</button>
+        <button onClick={onSubmitEmail}>RSVP</button> */}
       </div>
       <div>Contact</div>
       <div style={{ display: "flex", flexDirection: "column" }}>
