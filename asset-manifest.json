@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fullmoonartfestival/static/css/main.d27d2e58.css",
-    "main.js": "/fullmoonartfestival/static/js/main.cadecada.js",
+    "main.js": "/fullmoonartfestival/static/js/main.d67cd838.js",
     "static/js/651.a543a249.chunk.js": "/fullmoonartfestival/static/js/651.a543a249.chunk.js",
     "static/media/IMG_7874.PNG": "/fullmoonartfestival/static/media/IMG_7874.a72aab235ab4a66b95df.PNG",
     "static/media/IMG_7871.PNG": "/fullmoonartfestival/static/media/IMG_7871.76510846580833fcb7db.PNG",
@@ -18,11 +18,11 @@
     "static/media/bike_spirit.jpeg": "/fullmoonartfestival/static/media/bike_spirit.9518c19093fd37c06303.jpeg",
     "index.html": "/fullmoonartfestival/index.html",
     "main.d27d2e58.css.map": "/fullmoonartfestival/static/css/main.d27d2e58.css.map",
-    "main.cadecada.js.map": "/fullmoonartfestival/static/js/main.cadecada.js.map",
+    "main.d67cd838.js.map": "/fullmoonartfestival/static/js/main.d67cd838.js.map",
     "651.a543a249.chunk.js.map": "/fullmoonartfestival/static/js/651.a543a249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d27d2e58.css",
-    "static/js/main.cadecada.js"
+    "static/js/main.d67cd838.js"
   ]
 }
