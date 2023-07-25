@@ -1,19 +1,20 @@
-import { useState } from "react";
+// import { useState } from "react";
 import styled from "styled-components";
 export const SturgeonMoon = () => {
-  const [email, setEmail] = useState("");
-  const onChangeEmail = (email: string) => {
-    setEmail(email);
-  };
-  const onSubmitEmail = () => {
-    //TODO with database: send email to that email, enter the email into my db.
-    console.log(email);
-  };
+  // const [email, setEmail] = useState("");
+  // const onChangeEmail = (email: string) => {
+  //   setEmail(email);
+  // };
+  // const onSubmitEmail = () => {
+  //   //TODO with database: send email to that email, enter the email into my db.
+  //   console.log(email);
+  // };
   return (
     <Strawberry>
       <div>
         In honor of the Sturgeon Moon, we're doing an online crit. This crit is
-        open to any artist with a work to share.
+        open to anyone. The moon is on August 1, we'll choose the best time that
+        works for everyone once you rsvp!
       </div>
       <div>
         Contact Zev if you want to come, either send an email to
