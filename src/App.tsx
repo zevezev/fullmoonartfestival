@@ -63,6 +63,9 @@ const BodyBackground = styled.div<BodyBackgroundProps>`
   border-radius: 16px;
   text-align: start;
   margin: 30px;
+  @media only screen and (max-width: 600px) {
+    max-width: 90vw;
+  }
 `;
 type MoonMenuProps = {
   moon: SelectedMoon;
