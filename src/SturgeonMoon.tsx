@@ -14,9 +14,12 @@ export const SturgeonMoon = () => {
       <div>
         In honor of the Sturgeon Moon, we're doing an online crit. This crit is
         open to anyone. The moon is on August 1, we'll choose the best time that
-        works for everyone once you rsvp!
+        works for everyone!
       </div>
       <div>
+        <a href="https://www.when2meet.com/?20708681-MfHaU" target="_blank">
+          Pick a time!
+        </a>
         Contact Zev if you want to come, either send an email to
         zevizenberg@gmail.com or message me on instagram or facebook!
         {/* <input
