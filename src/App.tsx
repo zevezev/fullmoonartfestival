@@ -10,6 +10,7 @@ export enum EMoon {
   buck = "buck",
   sturgeon = "sturgeon",
   worm = "worm",
+  beaver = "beaver",
 }
 // | "blue"
 // | "harvest"
@@ -22,7 +23,7 @@ function App() {
       <Routes>
         <Route
           path="/fullmoonartfestival"
-          element={<Layout moon={EMoon.sturgeon} />}
+          element={<Layout moon={EMoon.beaver} />}
         />
         {Object.values(EMoon).map((moon) => (
           <Route

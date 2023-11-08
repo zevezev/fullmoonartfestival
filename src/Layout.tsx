@@ -9,6 +9,7 @@ import { SturgeonMoon } from "./moons/SturgeonMoon";
 import { SnowMoon } from "./moons/SnowMoon";
 import { PinkMoon } from "./moons/PinkMoon";
 import { WormMoon } from "./moons/WormMoon";
+import { BeaverMoon } from "./moons/BeaverMoon";
 import { useNavigate } from "react-router-dom";
 import { EMoon } from "./App";
 // TODO add routing so people can link to pages they participated in
@@ -21,6 +22,7 @@ const moonMap: { [key in EMoon]: ReactNode } = {
   snow: <SnowMoon />,
   pink: <PinkMoon />,
   worm: <WormMoon />,
+  beaver: <BeaverMoon />,
 };
 
 export const Layout = ({ moon }: { moon: EMoon }) => {
@@ -140,6 +142,14 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       >
         Sturgeon Moon
       </MoonSelectButton>
+      <MoonSelectButton
+        show={moon === EMoon.beaver || isOpen}
+        selected={moon === EMoon.beaver}
+        background={"#c64f18"}
+        onClick={() => onClickMoonButton(EMoon.beaver)}
+      >
+        Beaver Moon
+      </MoonSelectButton>
     </div>
   );
 };
@@ -151,7 +161,7 @@ type MoonSelectProps = {
 const MoonSelectButton = styled.div<MoonSelectProps>`
   background: ${(props) => props.background};
   color: #3b134b;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 800;
   padding: 20px;
   width: 100px;
@@ -179,6 +189,7 @@ const moonCSS: { [key in EMoon]: string } = {
   pink: ` background-color: #1a0540;`,
   worm: ` background-color: #1a0540;`,
   snow: ` background-color: #1a0540;`,
+  beaver: ` background-color: #1a0540;`,
 };
 
 type BackdropProps = {
