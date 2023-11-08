@@ -27,7 +27,7 @@ const moonMap: { [key in EMoon]: ReactNode } = {
 
 export const Layout = ({ moon }: { moon: EMoon }) => {
   const navigate = useNavigate();
-  const setMoon = (moon: EMoon) => navigate(`/fullmoonartfestival/${moon}`);
+  const setMoon = (moon: EMoon) => navigate(`/${moon}`);
   const moonHasBackdrop = !![EMoon.flowering, EMoon.strawberry].find(
     (inList) => moon === inList
   );
@@ -145,7 +145,7 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       <MoonSelectButton
         show={moon === EMoon.beaver || isOpen}
         selected={moon === EMoon.beaver}
-        background={"#c64f18"}
+        background={"#e37a30"}
         onClick={() => onClickMoonButton(EMoon.beaver)}
       >
         Beaver Moon
