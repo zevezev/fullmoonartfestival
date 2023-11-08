@@ -1,28 +1,39 @@
 {
   "files": {
-    "main.css": "/fullmoonartfestival/static/css/main.d27d2e58.css",
-    "main.js": "/fullmoonartfestival/static/js/main.79a5dd85.js",
+    "main.css": "/fullmoonartfestival/static/css/main.91100de5.css",
+    "main.js": "/fullmoonartfestival/static/js/main.1ddde10a.js",
     "static/js/651.a543a249.chunk.js": "/fullmoonartfestival/static/js/651.a543a249.chunk.js",
     "static/media/IMG_7874.PNG": "/fullmoonartfestival/static/media/IMG_7874.a72aab235ab4a66b95df.PNG",
     "static/media/IMG_7871.PNG": "/fullmoonartfestival/static/media/IMG_7871.76510846580833fcb7db.PNG",
     "static/media/IMG_7872.PNG": "/fullmoonartfestival/static/media/IMG_7872.a18a3c427055c506e210.PNG",
     "static/media/IMG_7873.PNG": "/fullmoonartfestival/static/media/IMG_7873.f1a8ad76db37667037b7.PNG",
     "static/media/IMG_7866.jpg": "/fullmoonartfestival/static/media/IMG_7866.c6998b50e471fe2dfe3a.jpg",
+    "static/media/8.jpg": "/fullmoonartfestival/static/media/8.55e34ac5cd79cb0bebb7.jpg",
     "static/media/vale.jpeg": "/fullmoonartfestival/static/media/vale.70f137be9b3278cb5890.jpeg",
     "static/media/IMG_7035.jpg": "/fullmoonartfestival/static/media/IMG_7035.b2086fad9524fe74d468.jpg",
     "static/media/IMG_7301.jpeg": "/fullmoonartfestival/static/media/IMG_7301.7f6d24021bc346f0a7aa.jpeg",
     "static/media/IMG_7302.jpeg": "/fullmoonartfestival/static/media/IMG_7302.9efa7a1971e287ce87bb.jpeg",
     "static/media/IMG_7300.jpeg": "/fullmoonartfestival/static/media/IMG_7300.b60509b305d18851b6b7.jpeg",
+    "static/media/5.jpg": "/fullmoonartfestival/static/media/5.28391c42024cf2c79ebe.jpg",
+    "static/media/6.1.jpg": "/fullmoonartfestival/static/media/6.1.31ed9072cf0f7644f1a7.jpg",
+    "static/media/1.jpg": "/fullmoonartfestival/static/media/1.386a76dcc9e0801e80e8.jpg",
+    "static/media/4'.jpg": "/fullmoonartfestival/static/media/4'.fcaf740ad6b5bf3549eb.jpg",
     "static/media/strawberry_suspension.jpeg": "/fullmoonartfestival/static/media/strawberry_suspension.17a8308ebe9741f89c8d.jpeg",
+    "static/media/3.jpg": "/fullmoonartfestival/static/media/3.37b7b323d2c09a761252.jpg",
     "static/media/sculptures.jpeg": "/fullmoonartfestival/static/media/sculptures.928b3018c02d28cae7f8.jpeg",
     "static/media/bike_spirit.jpeg": "/fullmoonartfestival/static/media/bike_spirit.9518c19093fd37c06303.jpeg",
+    "static/media/9.jpg": "/fullmoonartfestival/static/media/9.646a882196df672ad5de.jpg",
+    "static/media/2.1.jpg": "/fullmoonartfestival/static/media/2.1.06313ea546712b16f43e.jpg",
+    "static/media/Mirza-Regular.ttf": "/fullmoonartfestival/static/media/Mirza-Regular.8b2abe63c8f08dff7503.ttf",
+    "static/media/AveriaSansLibre-Regular.ttf": "/fullmoonartfestival/static/media/AveriaSansLibre-Regular.a9da1961d953db8a6621.ttf",
+    "static/media/Bentham-Regular.ttf": "/fullmoonartfestival/static/media/Bentham-Regular.f36eb649e16cd0e6241f.ttf",
     "index.html": "/fullmoonartfestival/index.html",
-    "main.d27d2e58.css.map": "/fullmoonartfestival/static/css/main.d27d2e58.css.map",
-    "main.79a5dd85.js.map": "/fullmoonartfestival/static/js/main.79a5dd85.js.map",
+    "main.91100de5.css.map": "/fullmoonartfestival/static/css/main.91100de5.css.map",
+    "main.1ddde10a.js.map": "/fullmoonartfestival/static/js/main.1ddde10a.js.map",
     "651.a543a249.chunk.js.map": "/fullmoonartfestival/static/js/651.a543a249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d27d2e58.css",
-    "static/js/main.79a5dd85.js"
+    "static/css/main.91100de5.css",
+    "static/js/main.1ddde10a.js"
   ]
 }
