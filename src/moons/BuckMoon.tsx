@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bikeSpirit from "./images/bike_spirit.jpeg";
+import bikeSpirit from "../images/bike_spirit.jpeg";
 export const BuckMoon = () => {
   return (
     <Strawberry>

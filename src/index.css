@@ -1,11 +1,29 @@
+@font-face {
+  font-family: "AveriaSansLibre";
+  src: local("AveriaSansLibre-Regular"),
+    url("./fonts/Averia_Sans_Libre/AveriaSansLibre-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Bentham";
+  src: local("Bentham-Regular"),
+    url("./fonts/Bentham/Bentham-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Mirza";
+  src: local("Mirza-Regular"),
+    url("./fonts/Mirza/Mirza-Regular.ttf")
+      format("truetype");
+}
 body {
   margin: 0;
-  font-family: 'serif';
+  font-family: "AveriaSansLibre";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import strawberrySuspension from "./images/strawberry_suspension.jpeg";
+import strawberrySuspension from "../images/strawberry_suspension.jpeg";
 export const StrawberryMoon = () => {
   return (
     <Strawberry>
@@ -33,7 +33,8 @@ export const StrawberryMoon = () => {
       <div>
         This Strawberry Full Moon, we will ascend to the circle at the top of
         San Francisco to do art together! Please bring a fruit and any materials
-        you'd like in the space. Dress warmly as it will get cold when the sun goes down!
+        you'd like in the space. Dress warmly as it will get cold when the sun
+        goes down!
       </div>
       <div>
         This is a time to reflect, revel, reconnect, and meet new friends and

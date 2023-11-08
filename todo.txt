@@ -1,0 +1,6 @@
+TODO:
+
+- add routing
+- work on colors
+- add photos and videos to past pages (add a crm?)
+- add event info for Novemnber 27

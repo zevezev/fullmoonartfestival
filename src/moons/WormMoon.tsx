@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Contact } from "./components/Contact";
+import { Contact } from "../components/Contact";
 export const WormMoon = () => {
   // TODO: picture
   return (
