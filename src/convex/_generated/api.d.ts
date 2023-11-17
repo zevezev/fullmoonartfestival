@@ -14,7 +14,8 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
-import type * as moonMessages from "../../../convex/moonMessages";
+import type * as functions from "../functions";
+import type * as moonMessages from "../moonMessages";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -25,6 +26,7 @@ import type * as moonMessages from "../../../convex/moonMessages";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  functions: typeof functions;
   moonMessages: typeof moonMessages;
 }>;
 export declare const api: FilterApi<

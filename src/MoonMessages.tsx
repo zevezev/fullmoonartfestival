@@ -1,5 +1,7 @@
-import { useQuery } from "convex/react";
+import { useMutation, useQuery } from "convex/react";
 import { api } from "./convex/_generated/api";
+import { useState } from "react";
+import styled from "styled-components";
 
 export const MoonMessages = () => {
   /*
@@ -13,16 +15,71 @@ export const MoonMessages = () => {
     
     It also needs a Moon Menu with (next moon info)
     */
+  const [message, setMessage] = useState({ message: "", author: "" });
+  const createMoonMessage = useMutation(api.functions.createMoonMessage);
+
   const moonMessages = useQuery(api.moonMessages.get);
 
   return (
     <div>
-      {moonMessages?.map(({ _id, message, author }) => (
-        <div key={_id}>
-          {message} - {author}
-        </div>
-      ))}
+      <StyledStarContainer>
+        {moonMessages?.map(({ _id, message, author }) => (
+          <StyledStar key={_id}>
+            {message}
+            {author && (
+              <div>
+                <br />- {author}
+              </div>
+            )}
+          </StyledStar>
+        ))}
+      </StyledStarContainer>
       <h1>Leave a message!</h1>
+      <form
+        onSubmit={(e) => {
+          e.stopPropagation();
+          if (message.message) {
+            createMoonMessage(message);
+            setMessage({ message: "", author: "" });
+          }
+        }}
+      >
+        <input
+          type="text"
+          placeholder="Message"
+          onChange={(e) => {
+            setMessage({ message: e.target.value, author: message.author });
+          }}
+          value={message.message}
+        />
+        <input
+          type="text"
+          placeholder="Author (optional)"
+          onChange={(e) => {
+            setMessage({ message: message.message, author: e.target.value });
+          }}
+          value={message.author}
+        />
+        <input type="submit" value="submit" />
+      </form>
     </div>
   );
 };
+
+const StyledStar = styled.div`
+  background: white;
+  padding: 24px;
+  color: black;
+  border-radius: 40%;
+  justify-content: center;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+`;
+const StyledStarContainer = styled.div`
+  display: flex;
+  justify-content: spaced-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 18px;
+`;

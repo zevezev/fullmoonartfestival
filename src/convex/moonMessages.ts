@@ -1,4 +1,5 @@
-import { query } from "../src/convex/_generated/server";
+
+import { query } from "./_generated/server";
 
 export const get = query({
   args: {},
@@ -6,3 +7,5 @@ export const get = query({
     return await ctx.db.query("moonMessages").collect();
   },
 });
+
+

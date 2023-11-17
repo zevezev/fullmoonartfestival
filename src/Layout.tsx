@@ -147,6 +147,14 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       }}
     >
       <MoonSelectButton
+        show={moon === EMoon.starfield || isOpen}
+        selected={moon === EMoon.starfield}
+        background={"#caf5f5"}
+        onClick={() => onClickMoonButton(EMoon.starfield)}
+      >
+        Moon Messages
+      </MoonSelectButton>
+      <MoonSelectButton
         show={moon === EMoon.snow || isOpen}
         selected={moon === EMoon.snow}
         background={"#7bc3ff"}
@@ -209,14 +217,6 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
         onClick={() => onClickMoonButton(EMoon.beaver)}
       >
         Beaver Moon
-      </MoonSelectButton>
-      <MoonSelectButton
-        show={moon === EMoon.starfield || isOpen}
-        selected={moon === EMoon.starfield}
-        background={"#caf5f5"}
-        onClick={() => onClickMoonButton(EMoon.starfield)}
-      >
-        Moon Messages
       </MoonSelectButton>
     </div>
   );
