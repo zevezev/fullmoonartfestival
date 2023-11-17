@@ -18,10 +18,11 @@ export enum EMoon {
 // | "hunters"
 
 function App() {
+  const defaultMoon = EMoon.beaver;
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout moon={EMoon.starfield} />} />
+        <Route path="/" element={<Layout moon={defaultMoon} />} />
         {Object.values(EMoon).map((moon) => (
           <Route
             key={moon}
@@ -29,7 +30,7 @@ function App() {
             element={<Layout moon={moon} />}
           />
         ))}
-        <Route path="/*" element={<Layout moon={EMoon.starfield} />} />
+        <Route path="/*" element={<Layout moon={defaultMoon} />} />
       </Routes>
     </div>
   );
