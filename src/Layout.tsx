@@ -55,7 +55,7 @@ const BodyBackground = styled.div<BodyBackgroundProps>`
   padding: 20px;
   border-radius: 16px;
   text-align: start;
-  margin: 30px;
+  margin: 10px;
   @media only screen and (max-width: 600px) {
     max-width: 90vw;
   }
@@ -74,6 +74,55 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       setIsOpen(true);
     }
   };
+  type MoonSelectProps = {
+    selected: boolean;
+    background: string;
+    show: boolean;
+    children: ReactNode;
+    onClick: () => void;
+  };
+  const MoonSelectButton = (props: MoonSelectProps) => {
+    return (
+      <StyledMoonSelectButton {...props}>
+        {!isOpen && <div className="menu"></div>}
+        <div className="moonName">{props.children}</div>
+        {!isOpen && <div className="menu">(menu)</div>}
+      </StyledMoonSelectButton>
+    );
+  };
+  const StyledMoonSelectButton = styled.div<MoonSelectProps>`
+    background: ${(props) => props.background};
+    color: #3b134b;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: ${(props) => (props.show ? "flex" : "none")};
+    border-radius: 50%;
+    box-shadow: ${(props) =>
+      props.selected ? `0px 0px 25px 25px ` + props.background + "dd" : ""};
+    border: ${(props) =>
+      props.selected ? `3px solid white` : "3px solid transparent"};
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 0px 20px 20px ${(props) => props.background}ee;
+    }
+    transition: box-shadow 0.2s;
+    .menu {
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+      flex: 1;
+    }
+    .moonName {
+      font-size: 26px;
+      font-weight: 800;
+      flex: 3;
+      display: flex;
+      align-items: center;
+    }
+  `;
   return (
     <div
       style={{
@@ -153,33 +202,6 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
     </div>
   );
 };
-type MoonSelectProps = {
-  selected: boolean;
-  background: string;
-  show: boolean;
-};
-const MoonSelectButton = styled.div<MoonSelectProps>`
-  background: ${(props) => props.background};
-  color: #3b134b;
-  font-size: 24px;
-  font-weight: 800;
-  padding: 20px;
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  align-items: center;
-  display: ${(props) => (props.show ? "flex" : "none")};
-  border-radius: 50%;
-  box-shadow: ${(props) =>
-    props.selected ? `0px 0px 25px 25px ` + props.background + "dd" : ""};
-  border: ${(props) =>
-    props.selected ? `3px solid white` : "3px solid transparent"};
-  cursor: pointer;
-  &:hover {
-    box-shadow: 0px 0px 20px 20px ${(props) => props.background}ee;
-  }
-  transition: box-shadow 0.2s;
-`;
 
 const moonCSS: { [key in EMoon]: string } = {
   strawberry: ` background-color: #f3658b;`,
