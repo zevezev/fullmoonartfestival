@@ -37,7 +37,7 @@ export const MoonMessages = () => {
       <h1>Leave a message!</h1>
       <form
         onSubmit={(e) => {
-          e.stopPropagation();
+          e.preventDefault();
           if (message.message) {
             createMoonMessage(message);
             setMessage({ message: "", author: "" });
