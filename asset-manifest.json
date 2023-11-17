@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fullmoonartfestival/static/css/main.91100de5.css",
-    "main.js": "/fullmoonartfestival/static/js/main.b8378177.js",
+    "main.js": "/fullmoonartfestival/static/js/main.c73966c4.js",
     "static/js/651.a543a249.chunk.js": "/fullmoonartfestival/static/js/651.a543a249.chunk.js",
     "static/media/IMG_7874.PNG": "/fullmoonartfestival/static/media/IMG_7874.a72aab235ab4a66b95df.PNG",
     "static/media/IMG_7871.PNG": "/fullmoonartfestival/static/media/IMG_7871.76510846580833fcb7db.PNG",
@@ -21,6 +21,7 @@
     "static/media/strawberry_suspension.jpeg": "/fullmoonartfestival/static/media/strawberry_suspension.17a8308ebe9741f89c8d.jpeg",
     "static/media/3.jpg": "/fullmoonartfestival/static/media/3.37b7b323d2c09a761252.jpg",
     "static/media/sculptures.jpeg": "/fullmoonartfestival/static/media/sculptures.928b3018c02d28cae7f8.jpeg",
+    "static/media/grave leaf.jpeg": "/fullmoonartfestival/static/media/grave leaf.de7b791bb13cda09317a.jpeg",
     "static/media/bike_spirit.jpeg": "/fullmoonartfestival/static/media/bike_spirit.9518c19093fd37c06303.jpeg",
     "static/media/9.jpg": "/fullmoonartfestival/static/media/9.646a882196df672ad5de.jpg",
     "static/media/2.1.jpg": "/fullmoonartfestival/static/media/2.1.06313ea546712b16f43e.jpg",
@@ -29,11 +30,11 @@
     "static/media/Bentham-Regular.ttf": "/fullmoonartfestival/static/media/Bentham-Regular.f36eb649e16cd0e6241f.ttf",
     "index.html": "/fullmoonartfestival/index.html",
     "main.91100de5.css.map": "/fullmoonartfestival/static/css/main.91100de5.css.map",
-    "main.b8378177.js.map": "/fullmoonartfestival/static/js/main.b8378177.js.map",
+    "main.c73966c4.js.map": "/fullmoonartfestival/static/js/main.c73966c4.js.map",
     "651.a543a249.chunk.js.map": "/fullmoonartfestival/static/js/651.a543a249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91100de5.css",
-    "static/js/main.b8378177.js"
+    "static/js/main.c73966c4.js"
   ]
 }
