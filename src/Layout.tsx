@@ -12,6 +12,7 @@ import { WormMoon } from "./moons/WormMoon";
 import { BeaverMoon } from "./moons/BeaverMoon";
 import { useNavigate } from "react-router-dom";
 import { EMoon } from "./App";
+import { MoonMessages } from "./MoonMessages";
 // TODO add routing so people can link to pages they participated in
 
 const moonMap: { [key in EMoon]: ReactNode } = {
@@ -23,16 +24,19 @@ const moonMap: { [key in EMoon]: ReactNode } = {
   pink: <PinkMoon />,
   worm: <WormMoon />,
   beaver: <BeaverMoon />,
+  starfield: <MoonMessages />,
 };
 
 export const Layout = ({ moon }: { moon: EMoon }) => {
   const navigate = useNavigate();
   const setMoon = (moon: EMoon) => navigate(`/${moon}`);
+  const goHome = () => navigate("/");
   const moonHasBackdrop = !![EMoon.flowering, EMoon.strawberry].find(
     (inList) => moon === inList
   );
   return (
     <Backdrop EMoon={moon}>
+      <Logo onClick={goHome}>Full Moon Art Festival</Logo>
       <MoonMenu moon={moon} setMoon={setMoon} />
       <BodyBackground showBackdrop={moonHasBackdrop}>
         {moonMap[moon]}
@@ -40,7 +44,15 @@ export const Layout = ({ moon }: { moon: EMoon }) => {
     </Backdrop>
   );
 };
-
+const Logo = styled.div`
+  color: white;
+  font-size: 24;
+  padding-top: 12px;
+  &:hover {
+    color: coral;
+    cursor: pointer;
+  }
+`;
 type BodyBackgroundProps = {
   showBackdrop: boolean;
 };
@@ -112,7 +124,6 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
     transition: box-shadow 0.2s;
     .menu {
       font-size: 18px;
-      color: rgb(255, 255, 255);
       flex: 1;
     }
     .moonName {
@@ -135,6 +146,14 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
         flexWrap: "wrap",
       }}
     >
+      <MoonSelectButton
+        show={moon === EMoon.starfield || isOpen}
+        selected={moon === EMoon.starfield}
+        background={"#caf5f5"}
+        onClick={() => onClickMoonButton(EMoon.starfield)}
+      >
+        Moon Messages
+      </MoonSelectButton>
       <MoonSelectButton
         show={moon === EMoon.snow || isOpen}
         selected={moon === EMoon.snow}
@@ -212,6 +231,7 @@ const moonCSS: { [key in EMoon]: string } = {
   worm: ` background-color: #1a0540;`,
   snow: ` background-color: #1a0540;`,
   beaver: ` background-color: #1a0540;`,
+  starfield: ` background-color: #1a0540;`,
 };
 
 type BackdropProps = {

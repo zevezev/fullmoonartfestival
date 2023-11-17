@@ -4,15 +4,19 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
-
+import { ConvexProvider, ConvexReactClient } from "convex/react";
+//@ts-ignore
+const convex = new ConvexReactClient(process.env.REACT_APP_CONVEX_URL);
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <ConvexProvider client={convex}>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </ConvexProvider>
   </React.StrictMode>
 );
 

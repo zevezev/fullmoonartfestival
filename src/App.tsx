@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { Layout } from "./Layout";
 
 export enum EMoon {
+  starfield = "starfield",
   snow = "snow",
   pink = "pink",
   strawberry = "strawberry",
@@ -15,13 +16,12 @@ export enum EMoon {
 // | "blue"
 // | "harvest"
 // | "hunters"
-// | "beaver";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout moon={EMoon.beaver} />} />
+        <Route path="/" element={<Layout moon={EMoon.starfield} />} />
         {Object.values(EMoon).map((moon) => (
           <Route
             key={moon}
@@ -29,7 +29,7 @@ function App() {
             element={<Layout moon={moon} />}
           />
         ))}
-        <Route path="/*" element={<Layout moon={EMoon.beaver} />} />
+        <Route path="/*" element={<Layout moon={EMoon.starfield} />} />
       </Routes>
     </div>
   );

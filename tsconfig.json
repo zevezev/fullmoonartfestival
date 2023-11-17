@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "src/index.tsx"  ]
+, "src/index.tsx", "convex/moonMessages.ts", "src/convex/schema.ts", "convex/functions.ts"  ]
 }
