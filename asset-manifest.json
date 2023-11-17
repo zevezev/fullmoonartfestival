@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fullmoonartfestival/static/css/main.91100de5.css",
-    "main.js": "/fullmoonartfestival/static/js/main.d9ab3aab.js",
+    "main.js": "/fullmoonartfestival/static/js/main.05e3f7af.js",
     "static/js/651.beebe0e0.chunk.js": "/fullmoonartfestival/static/js/651.beebe0e0.chunk.js",
     "static/media/IMG_7874.PNG": "/fullmoonartfestival/static/media/IMG_7874.a72aab235ab4a66b95df.PNG",
     "static/media/IMG_7871.PNG": "/fullmoonartfestival/static/media/IMG_7871.76510846580833fcb7db.PNG",
@@ -30,11 +30,11 @@
     "static/media/Bentham-Regular.ttf": "/fullmoonartfestival/static/media/Bentham-Regular.f36eb649e16cd0e6241f.ttf",
     "index.html": "/fullmoonartfestival/index.html",
     "main.91100de5.css.map": "/fullmoonartfestival/static/css/main.91100de5.css.map",
-    "main.d9ab3aab.js.map": "/fullmoonartfestival/static/js/main.d9ab3aab.js.map",
+    "main.05e3f7af.js.map": "/fullmoonartfestival/static/js/main.05e3f7af.js.map",
     "651.beebe0e0.chunk.js.map": "/fullmoonartfestival/static/js/651.beebe0e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91100de5.css",
-    "static/js/main.d9ab3aab.js"
+    "static/js/main.05e3f7af.js"
   ]
 }
