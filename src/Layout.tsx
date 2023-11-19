@@ -36,7 +36,7 @@ export const Layout = ({ moon }: { moon: EMoon }) => {
   );
   return (
     <Backdrop EMoon={moon}>
-      <Logo onClick={goHome}>Full Moon Art Festival</Logo>
+      <Logo onClick={goHome}>æ Full Moon Art Festival æ</Logo>
       <MoonMenu moon={moon} setMoon={setMoon} />
       <BodyBackground showBackdrop={moonHasBackdrop}>
         {moonMap[moon]}
@@ -213,7 +213,7 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       <MoonSelectButton
         show={moon === EMoon.beaver || isOpen}
         selected={moon === EMoon.beaver}
-        background={"#e37a30"}
+        background={"#ffd7a8"}
         onClick={() => onClickMoonButton(EMoon.beaver)}
       >
         Beaver Moon

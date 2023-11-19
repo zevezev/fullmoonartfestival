@@ -16,9 +16,15 @@
     url("./fonts/Mirza/Mirza-Regular.ttf")
       format("truetype");
 }
+@font-face {
+  font-family: "RainyHearts";
+  src: local("RainyHearts"),
+    url("./fonts/rainyhearts.ttf")
+      format("truetype");
+}
 body {
   margin: 0;
-  font-family: "AveriaSansLibre";
+  font-family: "RainyHearts";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

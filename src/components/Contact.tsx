@@ -3,7 +3,7 @@ export const Contact = () => {
     <div style={{ display: "flex", flexDirection: "column" }}>
       <div>
         The Full Moon Art Festival is an ongoing project by&nbsp;
-        <a href="https://www.zevizenberg.com/" target="_blank">
+        <a href="https://www.zevizenberg.com/" target="_blank" rel="noreferrer">
           Zev Izenberg
         </a>
         , a painter, software engineer, and collaborative artist based in

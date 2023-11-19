@@ -1,6 +1,37 @@
 TODO:
 
-- add routing
 - work on colors
 - add photos and videos to past pages (add a crm?)
-- add event info for Novemnber 27
+
+
+
+
+
+- WORKING ON add event info for Novemnber 27
+
+11/18 agenda: 
+
+The moon symbol should have the moon filled ness of the current moon
+
+PIXEL font
+
+STARFIELD (p5):
+Steps:
+- just show circles, when clicked open dialog
+- show circles but in p5 canvas https://github.com/P5-wrapper/react
+- randomly place circles in canvas
+-  stars instead of circles
+- star twinkle
+- star size increase when hover
+- any way to incorporate this into main site instead of just in the page?
+- maybe moon menu becomes the canvas. then we can have it on every page.
+
+
+- each message creates a star that enters the field
+- click the star to read the message
+- stars should not spawn on top of each others
+- stars should have procedural generation to look like the kinds of stars I draw
+- stars should take colors from some of my colors
+- generate stars for each message, each with an onclick to show the message
+
+Update description for nov 27 event, create event, send it out.
