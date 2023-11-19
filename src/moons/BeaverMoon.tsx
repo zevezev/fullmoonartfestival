@@ -11,19 +11,19 @@ export const BeaverMoon = () => {
         </a>{" "}
         for the address!
       </p>
-
-      <p>The festival will start at 7pm. Contact Zev to get involved!</p>
-      <p>
-        The indiginous name for this moon is the Beaver Moon. It's the season
-        where beavers begin to hide in their shelters in preparation for the
-        winter, and the last full moon before the solstice. <br />
-        <br />
-        Using my apartment space, paint, paper, instruments, and our bodies,
-        we'll collaborate on art that protects.
-        <br />
-        Supplies and snacks will be provided! You're invited to bring any
-        supplies and art you want to share.
-      </p>
+      You're invited to the Beaver Moon Gathering!! Using my apartment space,
+      paint, paper, instruments, and our bodies, we'll collaborate on art
+      inspired by this beaver moon.
+      <br />
+      It'll be a free-flowing art jam where everyone is invited to co-create the
+      space. Supplies and snacks will be provided!
+      <br /> You're invited to bring any supplies and art you want to share.
+      <br />
+      The indiginous name for this moon is the Beaver Moon. It's the season
+      where beavers begin to hide in their shelters in preparation for the
+      winter, and the last full moon before the solstice. We might think about
+      things like protection, community, hiding, safety, preparing for winter,
+      coziness, etc.
       <img
         style={{ maxWidth: "100%", maxHeight: "100%" }}
         src={leafbagel}
