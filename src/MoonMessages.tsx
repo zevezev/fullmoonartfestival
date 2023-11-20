@@ -1,8 +1,56 @@
+//@ts-nocheck
+
 import { useMutation, useQuery } from "convex/react";
 import { api } from "./convex/_generated/api";
-import { useState } from "react";
-import styled from "styled-components";
+import { useEffect, useState } from "react";
+import styled, { createGlobalStyle } from "styled-components";
+import {
+  P5WrapperClassName,
+  ReactP5Wrapper,
+  Sketch,
+  SketchProps,
+} from "@p5-wrapper/react";
 
+const GlobalWrapperStyles = createGlobalStyle`
+  .${P5WrapperClassName} {
+    position: relative;
+  }
+`;
+
+const StyledCentredText = styled.span`
+  .${P5WrapperClassName} & {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+  }
+`;
+
+function sketch(p5: Sketch<SketchProps>) {
+  let rotation = 0;
+
+  p5.setup = () => p5.createCanvas(600, 400, p5.WEBGL);
+
+  p5.updateWithProps = (props) => {
+    if (props.rotation) {
+      rotation = (props.rotation * Math.PI) / 180;
+    }
+  };
+
+  p5.draw = () => {
+    p5.background(100);
+    p5.normalMaterial();
+    p5.noStroke();
+    p5.push();
+    p5.rotateY(rotation);
+    p5.box(100);
+    p5.pop();
+  };
+}
 export const MoonMessages = () => {
   /*
     MoonMessages is the home page of full moon art festival. 
@@ -15,6 +63,18 @@ export const MoonMessages = () => {
     
     It also needs a Moon Menu with (next moon info)
     */
+  const [rotation, setRotation] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(
+      () => setRotation((rotation) => rotation + 100),
+      100
+    );
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
   const [message, setMessage] = useState({ message: "", author: "" });
   const createMoonMessage = useMutation(api.functions.createMoonMessage);
 
@@ -22,8 +82,12 @@ export const MoonMessages = () => {
 
   return (
     <div>
+      <GlobalWrapperStyles />
       <StyledStarContainer>
-        {moonMessages?.map(({ _id, message, author }) => (
+        <ReactP5Wrapper sketch={sketch} rotation={rotation}>
+          <StyledCentredText>Hello world!</StyledCentredText>
+        </ReactP5Wrapper>
+        {/* {moonMessages?.map(({ _id, message, author }) => (
           <StyledStar key={_id}>
             {message}
             {author && (
@@ -32,7 +96,7 @@ export const MoonMessages = () => {
               </div>
             )}
           </StyledStar>
-        ))}
+        ))} */}
       </StyledStarContainer>
       <h1>Leave a message!</h1>
       <form
