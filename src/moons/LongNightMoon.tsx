@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import pic from "../images/Long Night Moon/IMG_9771.jpeg";
+import pic from "../images/Long Night Moon/IMG_9667.jpg";
 export const LongNightMoon = () => {
   return (
     <Beaver>
       <p>Tuesday, December 26</p>
-      <img src={pic} />
       <p>
         This moon, many of us away from NYC. So instead of a big physical
         gathering, you're invited to do art wherever you are. What you share
@@ -36,6 +35,7 @@ export const LongNightMoon = () => {
         , because it takes place on the longest full moon night of the year.
         This page was written on stolen Lenape land.
       </p>
+      <img src={pic} />
     </Beaver>
   );
 };
