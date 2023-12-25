@@ -2,12 +2,16 @@ export const FloweringMoon = () => {
   return (
     <>
       <div style={{ textAlign: "center", fontSize: "36px", color: "#E6F288" }}>
-        Full Moon Art Festival: Flowering Moon 
+        Full Moon Art Festival: Flowering Moon
       </div>
       <div className="map-image map-clover" />
       <br />
       <div>May 6, 5pm - Sundown</div>
-      <a href="https://goo.gl/maps/mwJgA6HgPR8tcEQX7" target="_blank">
+      <a
+        href="https://goo.gl/maps/mwJgA6HgPR8tcEQX7"
+        target="_blank"
+        rel="noreferrer"
+      >
         Location: Fountain beds near the Vale in Prospect Park, Brooklyn
         <br />
         Click here or see screenshots below.
@@ -42,6 +46,7 @@ export const FloweringMoon = () => {
         <a
           href="https://www.instagram.com/fullmoonartfestival/"
           target="_blank"
+          rel="noreferrer"
         >
           Instagram
         </a>
@@ -54,18 +59,20 @@ export const FloweringMoon = () => {
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScWur-y7b9uSxZs4a2ZtlbhSuJ5FSjG-tEGRkRg2jHkHEtFog/viewform?usp=sf_link"
         target="_blank"
+        rel="noreferrer"
       >
         Join our email list
       </a>
       <a
         href="https://venmo.com/code?user_id=2072063309250560702&created=1681673599.09571&printed=1"
         target="_blank"
+        rel="noreferrer"
       >
         Support
       </a>
       <div>
         The Full Moon Art Festival is an ongoing project by&nbsp;
-        <a href="https://www.zevizenberg.com/" target="_blank">
+        <a href="https://www.zevizenberg.com/" target="_blank" rel="noreferrer">
           Zev Izenberg
         </a>
         , a painter, software engineer, and collaborative artist based in

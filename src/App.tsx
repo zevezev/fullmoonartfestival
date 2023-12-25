@@ -12,13 +12,14 @@ export enum EMoon {
   sturgeon = "sturgeon",
   worm = "worm",
   beaver = "beaver",
+  longnight = "longnight",
 }
 // | "blue"
 // | "harvest"
 // | "hunters"
 
 function App() {
-  const defaultMoon = EMoon.beaver;
+  const defaultMoon = EMoon.longnight;
   return (
     <div className="App">
       <Routes>

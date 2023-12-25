@@ -26,7 +26,8 @@ export const BuckMoon = () => {
       <div>
         Location: Fort Greene Park, at the DeKalb Ave and Washington Park
         entrance. If you arrive late, find us in the open grassy area.
-        {/* <a href="" target="_blank">
+        {/* <a href="" target="_blank"
+rel="noreferrer">
           Click here to see on the map!
         </a> */}
       </div>
@@ -34,6 +35,7 @@ export const BuckMoon = () => {
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfi2Xk7Kdl5z5hKa12C1CEFdHg4xiEn9XO158ldFt6EXsC31g/viewform?usp=sf_link"
           target="_blank"
+          rel="noreferrer"
         >
           Enter your phone number
         </a>{" "}
@@ -55,6 +57,7 @@ export const BuckMoon = () => {
         <a
           href="https://www.instagram.com/fullmoonartfestival/"
           target="_blank"
+          rel="noreferrer"
         >
           Instagram
         </a>
@@ -63,6 +66,7 @@ export const BuckMoon = () => {
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScWur-y7b9uSxZs4a2ZtlbhSuJ5FSjG-tEGRkRg2jHkHEtFog/viewform?usp=sf_link"
         target="_blank"
+        rel="noreferrer"
       >
         Join our email list
       </a>
@@ -70,12 +74,13 @@ export const BuckMoon = () => {
       {/* <a
         href="https://venmo.com/code?user_id=2072063309250560702&created=1681673599.09571&printed=1"
         target="_blank"
+rel="noreferrer"
       >
         Support the project
       </a> */}
       <div>
         The Full Moon Art Festival is an ongoing project by&nbsp;
-        <a href="https://www.zevizenberg.com/" target="_blank">
+        <a href="https://www.zevizenberg.com/" target="_blank" rel="noreferrer">
           Zev Izenberg
         </a>
         , a painter, software engineer, and collaborative artist based in

@@ -17,6 +17,9 @@ a{
   color:rgb(230, 242, 136);
   text-decoration: none;
 }
+p{
+  font-size:20px;
+}
 
 .App-header {
 

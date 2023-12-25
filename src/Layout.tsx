@@ -13,6 +13,7 @@ import { BeaverMoon } from "./moons/BeaverMoon";
 import { useNavigate } from "react-router-dom";
 import { EMoon } from "./App";
 import { MoonMessages } from "./MoonMessages";
+import { LongNightMoon } from "./moons/LongNightMoon";
 // TODO add routing so people can link to pages they participated in
 
 const moonMap: { [key in EMoon]: ReactNode } = {
@@ -25,6 +26,7 @@ const moonMap: { [key in EMoon]: ReactNode } = {
   worm: <WormMoon />,
   beaver: <BeaverMoon />,
   starfield: <MoonMessages />,
+  longnight: <LongNightMoon />,
 };
 
 export const Layout = ({ moon }: { moon: EMoon }) => {
@@ -146,6 +148,7 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
         flexWrap: "wrap",
       }}
     >
+      {/* TODO: this can be refactored for sure */}
       <MoonSelectButton
         show={moon === EMoon.starfield || isOpen}
         selected={moon === EMoon.starfield}
@@ -218,6 +221,14 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       >
         Beaver Moon
       </MoonSelectButton>
+      <MoonSelectButton
+        show={moon === EMoon.longnight || isOpen}
+        selected={moon === EMoon.longnight}
+        background={"#9a99fd"}
+        onClick={() => onClickMoonButton(EMoon.longnight)}
+      >
+        Long Night Moon
+      </MoonSelectButton>
     </div>
   );
 };
@@ -232,6 +243,7 @@ const moonCSS: { [key in EMoon]: string } = {
   snow: ` background-color: #1a0540;`,
   beaver: ` background-color: #1a0540;`,
   starfield: ` background-color: #1a0540;`,
+  longnight: ` background-color: #1a0540;`,
 };
 
 type BackdropProps = {

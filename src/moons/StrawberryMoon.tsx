@@ -22,7 +22,11 @@ export const StrawberryMoon = () => {
       <div>
         Location: Buena Vista Park, San Francisco. Meet at the East entrance at
         Buena Vista Ave E and Duboce Ave.&nbsp;
-        <a href="https://goo.gl/maps/nDuZPiBAwxNyDjYs9" target="_blank">
+        <a
+          href="https://goo.gl/maps/nDuZPiBAwxNyDjYs9"
+          target="_blank"
+          rel="noreferrer"
+        >
           Click here to see on the map!
         </a>
       </div>
@@ -45,6 +49,7 @@ export const StrawberryMoon = () => {
         <a
           href="https://www.instagram.com/fullmoonartfestival/"
           target="_blank"
+          rel="noreferrer"
         >
           Instagram
         </a>
@@ -53,18 +58,20 @@ export const StrawberryMoon = () => {
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScWur-y7b9uSxZs4a2ZtlbhSuJ5FSjG-tEGRkRg2jHkHEtFog/viewform?usp=sf_link"
         target="_blank"
+        rel="noreferrer"
       >
         Join our email list
       </a>
       <a
         href="https://venmo.com/code?user_id=2072063309250560702&created=1681673599.09571&printed=1"
         target="_blank"
+        rel="noreferrer"
       >
         Support the project
       </a>
       <div>
         The Full Moon Art Festival is an ongoing project by&nbsp;
-        <a href="https://www.zevizenberg.com/" target="_blank">
+        <a href="https://www.zevizenberg.com/" target="_blank" rel="noreferrer">
           Zev Izenberg
         </a>
         , a painter, software engineer, and collaborative artist based in
