@@ -149,14 +149,14 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       }}
     >
       {/* TODO: this can be refactored for sure */}
-      <MoonSelectButton
+      {/* <MoonSelectButton
         show={moon === EMoon.starfield || isOpen}
         selected={moon === EMoon.starfield}
         background={"#caf5f5"}
         onClick={() => onClickMoonButton(EMoon.starfield)}
       >
         Moon Messages
-      </MoonSelectButton>
+      </MoonSelectButton> */}
       <MoonSelectButton
         show={moon === EMoon.snow || isOpen}
         selected={moon === EMoon.snow}
