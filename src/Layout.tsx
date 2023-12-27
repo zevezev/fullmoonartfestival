@@ -13,7 +13,7 @@ import { BeaverMoon } from "./moons/BeaverMoon";
 import { useNavigate } from "react-router-dom";
 import { EMoon } from "./App";
 import { MoonMessages } from "./MoonMessages";
-import { LongNightMoon } from "./moons/LongNightMoon";
+import { LongNightMoon } from "./moons/longnightmoon/LongNightMoon";
 // TODO add routing so people can link to pages they participated in
 
 const moonMap: { [key in EMoon]: ReactNode } = {

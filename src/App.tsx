@@ -17,7 +17,7 @@ export enum EMoon {
 // | "blue"
 // | "harvest"
 // | "hunters"
-
+// TODO I might need to add routing to catch weird hyperlinks that remove the "#"
 function App() {
   const defaultMoon = EMoon.longnight;
   return (

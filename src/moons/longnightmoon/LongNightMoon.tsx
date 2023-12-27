@@ -1,6 +1,9 @@
 import styled from "styled-components";
-import pic from "../images/Long Night Moon/IMG_9667.jpg";
+import pic from "../../images/Long Night Moon/IMG_9667.jpg";
+import { submissions } from "./LongNightMoonResponses";
+
 export const LongNightMoon = () => {
+  console.log(submissions.map((submission) => submission));
   return (
     <Beaver>
       <p>Tuesday, December 26</p>
@@ -15,7 +18,7 @@ export const LongNightMoon = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <h3>Share here!</h3>
+        <h2>Share here!</h2>
       </a>
       <p>
         Please share something you made/mended/wrote/found/danced/played in the
@@ -35,18 +38,66 @@ export const LongNightMoon = () => {
         , because it takes place on the longest full moon night of the year.
         This page was written on stolen Lenape land.
       </p>
-      <img src={pic} />
+      {submissions.map((submission: Submission) => (
+        <Post submission={submission} />
+      ))}
+      <p>æææææææææææ</p>
+      <img src={pic} alt="" />
     </Beaver>
   );
 };
+type Submission = {
+  timestamp: string;
+  email: string;
+  name: string;
+  location: string;
+  artFile: any;
+  artLinkOrText: string;
+  otherInfo: string;
+  hide: string;
+};
+const Post = ({ submission }: { submission: Submission }) => {
+  return (
+    <StyledPost>
+      <p>🌑 🌒 🌓 🌔 🌝 🌖 🌗 🌘 🌑</p>
+      <br />
+      <h2>{submission.name}</h2>
+      <p>{submission.location}</p>
+      <br />
+      <img src={submission.artFile} alt="" />
+      <br />
+      <p className="info">{submission.artLinkOrText}</p>
+      <p className="info">{submission.otherInfo}</p>
+    </StyledPost>
+  );
+};
+const StyledPost = styled.div`
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+  margin: 16px;
+  p {
+    margin: 0px;
+  }
+  h2 {
+    color: #f399fd;
+    margin: 0px;
+  }
+  .info {
+    text-align: left;
+  }
+`;
 const Beaver = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 16px;
   text-align: center;
   color: #d1d1f7;
+
   a {
     color: #9a99fd;
+    &:hover {
+      color: #f399fd;
+    }
   }
 `;
