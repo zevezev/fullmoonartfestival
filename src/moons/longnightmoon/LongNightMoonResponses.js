@@ -2,6 +2,8 @@
 import claire from "./files/clairecz.jpeg"
 import duramdusam from "./files/duramdusam.jpeg"
 import emijade from "./files/emijade.jpeg"
+import zackcombo from "./files/zackcombo.jpeg"
+
 
 
 export const submissions = [
@@ -44,5 +46,15 @@ export const submissions = [
     "artLinkOrText": "",
     "otherInfo": "This is my friend omer! We're on a road trip together right now, took this picture on it.\n\nHe wants people to more critically engage with his art at @go.rashi",
     "hide": ""
+  },
+    {
+    "timestamp": "12/28/2023 10:34:18",
+    "email": "zackkeven@gmail.com",
+    "name": "Zack (sometimes friend of Greebo)",
+    "location": "Beer Talera, Rajasthan",
+    "artFile": zackcombo,
+    "artLinkOrText": "",
+    "otherInfo": "",
+    "hide": "",
   }
 ]

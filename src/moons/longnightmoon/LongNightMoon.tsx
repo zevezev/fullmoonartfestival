@@ -51,7 +51,7 @@ type Submission = {
   email: string;
   name: string;
   location: string;
-  artFile: any;
+  artFile: string;
   artLinkOrText: string;
   otherInfo: string;
   hide: string;
@@ -75,6 +75,12 @@ const StyledPost = styled.div`
   display: flex;
   flex-direction: column;
   white-space: pre-wrap;
+  .images {
+    display: flex;
+    img {
+      object-fit: contain;
+    }
+  }
   margin: 16px;
   p {
     margin: 0px;
@@ -83,6 +89,7 @@ const StyledPost = styled.div`
     color: #f399fd;
     margin: 0px;
   }
+
   .info {
     text-align: left;
   }
