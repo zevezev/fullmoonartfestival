@@ -7,6 +7,7 @@ import zackcombo from "./files/zackcombo.jpeg"
 
 
 export const submissions = [
+  
   {
     "timestamp": "12/25/2023 18:28:27",
     "email": "emi_anderson@fitnyc.edu",
