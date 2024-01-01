@@ -53,6 +53,7 @@ type Submission = {
   location: string;
   artFile: string;
   artLinkOrText: string;
+  videoFile?: string;
   otherInfo: string;
   hide: string;
 };
@@ -64,7 +65,17 @@ const Post = ({ submission }: { submission: Submission }) => {
       <h2>{submission.name}</h2>
       <p>{submission.location}</p>
       <br />
-      <img src={submission.artFile} alt="" />
+      {submission.artFile && <img src={submission.artFile} alt="" />}
+      {submission.videoFile && (
+        <iframe
+          src={submission.videoFile}
+          title="YouTube video player"
+          width="auto"
+          height="100%"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      )}
       <br />
       <p className="info">{submission.artLinkOrText}</p>
       <p className="info">{submission.otherInfo}</p>

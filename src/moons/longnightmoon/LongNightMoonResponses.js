@@ -57,5 +57,38 @@ export const submissions = [
     "artLinkOrText": "",
     "otherInfo": "",
     "hide": "",
+  },
+   { "timestamp": "12/28/2023 10:34:18",
+    "email": "scs8782@nyu.edu",
+    "name": "Sadie Shea",
+    "location": "Hawaii!",
+    "artFile": '',
+    "videoFile":"https://www.youtube.com/embed/CfGoWBslKXI?si=160Bt8eLb18jmEvF",
+    "artLinkOrText": "",
+    "otherInfo": "",
+    "hide": "",
+  },
+
+       {
+    "timestamp": "12/28/2023 10:34:18",
+    "email": "verity.cook@hotmail.co.uk",
+    "name": "Verity",
+    "location": "Berlin",
+    "artFile": '',
+
+    "artLinkOrText": "We are all at home\nConnecting with each other\nIn separate rooms",
+    "otherInfo": "",
+    "hide": "",
+  },
+         {
+    "timestamp": "12/28/2023 10:34:18",
+    "email": "",
+    "name": "Zev",
+    "location": "Brooklyn, New York",
+    "artFile": '',
+    "videoFile":"https://www.youtube.com/embed/OPuSIzfnvDs?si=T947baptryUcoumc",
+    "artLinkOrText": "",
+    "otherInfo": "",
+    "hide": "",
   }
 ]
