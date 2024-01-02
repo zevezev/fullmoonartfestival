@@ -8,22 +8,7 @@ export const LongNightMoon = () => {
     <Beaver>
       <p>Tuesday, December 26</p>
       <p>
-        This moon, many of us away from NYC. So instead of a big physical
-        gathering, you're invited to do art wherever you are. What you share
-        here may be displayed on this page and will be shared in future
-        gatherings!
-      </p>
-      <a
-        href="https://forms.gle/3vaqKTbHcdwwwEqg6"
-        rel="noreferrer"
-        target="_blank"
-      >
-        <h2>Share here!</h2>
-      </a>
-      <p>
-        Please share something you made/mended/wrote/found/danced/played in the
-        long nights (or short days) of this Full Moon! This form is open until
-        the end of the year.
+        This moon, we shared art we did from wherever we were on the full moon.
       </p>
 
       <p>
@@ -67,14 +52,16 @@ const Post = ({ submission }: { submission: Submission }) => {
       <br />
       {submission.artFile && <img src={submission.artFile} alt="" />}
       {submission.videoFile && (
-        <iframe
-          src={submission.videoFile}
-          title="YouTube video player"
-          width="auto"
-          height="100%"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
+        <div className="iframe-container">
+          <iframe
+            src={submission.videoFile}
+            title="YouTube video player"
+            width="100%"
+            height="100%"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
       )}
       <br />
       <p className="info">{submission.artLinkOrText}</p>
@@ -86,6 +73,12 @@ const StyledPost = styled.div`
   display: flex;
   flex-direction: column;
   white-space: pre-wrap;
+  .iframe-container {
+    @media screen and (max-width: 600px) {
+      height: 200px;
+    }
+    height: 300px;
+  }
   .images {
     display: flex;
     img {
