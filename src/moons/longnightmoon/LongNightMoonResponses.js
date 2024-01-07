@@ -90,5 +90,16 @@ export const submissions = [
     "artLinkOrText": "",
     "otherInfo": "",
     "hide": "",
+  },
+         {
+    "timestamp": "12/28/2023 10:34:18",
+    "email": "",
+    "name": "vicki",
+    "location": "sf",
+    "artFile": '',
+    "videoFile":"",
+    "artLinkOrText": "christmas day \n\nsay my favorite sound in the entire world right now is this type of laugh\nit is too loud and overall the sort of thing in which\na dog and dog walker passing by might jump\nslightly at the crooning pitch of carefree,\n\nand that's also part of the favoriteness,\nthat the laugher has no idea that it's my favorite sound,\nor that they startled this stranger, and all i want right now\nis for them to keep laughing, laugh and laugh and laugh\n\nuntil all the dogs in this shiny town go berserk howling \nyowling they just cannot stand it ! poor things \nthey are so confused ! foaming at the mouth \nand dragging their walking companions \n\nhapless down streets, and all the neighbors \nthat have kids instead of dogs poke out to rubberneck \nthis thunderstorm of guffaws, this tornado \nof humans hurling and canines hurtling\n\naround on leashes at 40 miles an hour who \nas they whiz by are positively beseeching this laugher \nto stop so that they can walk again upright next to \ntheir sweating huskies and psychotic labradoodle mixes\n\nand also grab their other sandal, kindly, it's been lost \nin the kerfuffle and if the laugher knew maybe they would be \na little embarrassed at the inconvenience \nbut they aren't! and they don't! they don't\n\nhear them, they do not see \nany of this, they are quite \npreoccupied and there isn't even anything \nparticularly funny, only the tune \n\nof the bellows that richochet off bluebird \ncanyon, rollicking in the wind\n\n\n______________\nand gathering no moss\n\nfrozen milk in plastic\nplanters peanut packages\ndrawing condensation, that\n\nwhich pools. it's a dusty table. \nhe cooks under a tarp sleeps\nin the same room he eats. \n\nnot much to say, beijing is too \nsour, shanghai too sweet\nhe is the goldilocks man\n\nof china, he will never settle\nthere is no just\nthere is no right\n\nhe does not fall asleep\nin the perfect bed rather\nhe jumps out the window \n\nand keeps running\nwith trousers rolled\nand gathering no moss",
+    "otherInfo": "",
+    "hide": "",
   }
 ]
