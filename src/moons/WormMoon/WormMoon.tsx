@@ -17,7 +17,7 @@ export const WormMoon = () => {
   return (
     <Strawberry>
       March 2024
-      <div>A very wormy dance party.</div>
+      <div>A very wormy dance party. Photos soon!</div>
       <Gallery images={images2024} />
       March 2023
       <div>
