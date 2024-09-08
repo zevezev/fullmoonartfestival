@@ -36,7 +36,6 @@ const Wolf = styled.div`
   flex-direction: column;
   text-align: center;
   color: #d1d1f7;
-
   a {
     color: #9a99fd;
     &:hover {
@@ -47,5 +46,6 @@ const Wolf = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
   }
 `;
