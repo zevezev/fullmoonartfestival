@@ -3,7 +3,6 @@ import pic from "../../images/Long Night Moon/IMG_9667.jpg";
 import { submissions } from "./LongNightMoonResponses";
 
 export const LongNightMoon = () => {
-  console.log(submissions.map((submission) => submission));
   return (
     <Beaver>
       <p>Tuesday, December 26</p>
