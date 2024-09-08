@@ -13,13 +13,14 @@ export enum EMoon {
   worm = "worm",
   beaver = "beaver",
   longnight = "longnight",
+  wolf = "wolf",
 }
 // | "blue"
 // | "harvest"
 // | "hunters"
 // TODO I might need to add routing to catch weird hyperlinks that remove the "#"
 function App() {
-  const defaultMoon = EMoon.longnight;
+  const defaultMoon = EMoon.wolf;
   return (
     <div className="App">
       <Routes>

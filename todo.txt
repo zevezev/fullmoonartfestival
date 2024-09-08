@@ -1,4 +1,13 @@
 TODO:
+9/8:
+1. Make Harvest Moon
+2. Make landing page
+3. improve photo quality where it's lacking
+4. get videos from the recent worm moon
+5. find a graphic for the wolf moon
+
+
+
 
 - work on colors
 - add photos and videos to past pages (add a crm?)

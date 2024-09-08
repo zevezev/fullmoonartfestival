@@ -1,19 +1,20 @@
 import React, { ReactNode, useState } from "react";
 import "./App.css";
-import { FloweringMoon } from "./moons/FloweringMoon";
-import { StrawberryMoon } from "./moons/StrawberryMoon";
+import { FloweringMoon } from "./moons/FloweringMoon/FloweringMoon";
+import { StrawberryMoon } from "./moons/StrawberryMoon/StrawberryMoon";
 import ValeImage from "./images/vale.jpeg";
 import styled from "styled-components";
-import { BuckMoon } from "./moons/BuckMoon";
+import { BuckMoon } from "./moons/BuckMoon/BuckMoon";
 import { SturgeonMoon } from "./moons/SturgeonMoon";
 import { SnowMoon } from "./moons/SnowMoon";
-import { PinkMoon } from "./moons/PinkMoon";
-import { WormMoon } from "./moons/WormMoon";
-import { BeaverMoon } from "./moons/BeaverMoon";
+import { PinkMoon } from "./moons/PinkMoon/PinkMoon";
+import { WormMoon } from "./moons/WormMoon/WormMoon";
+import { BeaverMoon } from "./moons/BeaverMoon/BeaverMoon";
 import { useNavigate } from "react-router-dom";
 import { EMoon } from "./App";
 import { MoonMessages } from "./MoonMessages";
 import { LongNightMoon } from "./moons/longnightmoon/LongNightMoon";
+import { WolfMoon } from "./moons/WolfMoon/WolfMoon";
 // TODO add routing so people can link to pages they participated in
 
 const moonMap: { [key in EMoon]: ReactNode } = {
@@ -27,6 +28,7 @@ const moonMap: { [key in EMoon]: ReactNode } = {
   beaver: <BeaverMoon />,
   starfield: <MoonMessages />,
   longnight: <LongNightMoon />,
+  wolf: <WolfMoon />,
 };
 
 export const Layout = ({ moon }: { moon: EMoon }) => {
@@ -38,7 +40,10 @@ export const Layout = ({ moon }: { moon: EMoon }) => {
   );
   return (
     <Backdrop EMoon={moon}>
-      <Logo onClick={goHome}>æ Full Moon Art Festival æ</Logo>
+      <Logo onClick={goHome}>
+        æ Full Moon Art Festival æ<br />
+        Tap the moon to explore!
+      </Logo>
       <MoonMenu moon={moon} setMoon={setMoon} />
       <BodyBackground showBackdrop={moonHasBackdrop}>
         {moonMap[moon]}
@@ -98,9 +103,7 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
   const MoonSelectButton = (props: MoonSelectProps) => {
     return (
       <StyledMoonSelectButton {...props}>
-        {!isOpen && <div className="menu"></div>}
         <div className="moonName">{props.children}</div>
-        {!isOpen && <div className="menu">(menu)</div>}
       </StyledMoonSelectButton>
     );
   };
@@ -124,10 +127,6 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       box-shadow: 0px 0px 20px 20px ${(props) => props.background}ee;
     }
     transition: box-shadow 0.2s;
-    .menu {
-      font-size: 18px;
-      flex: 1;
-    }
     .moonName {
       font-size: 26px;
       font-weight: 800;
@@ -229,6 +228,14 @@ const MoonMenu: React.FC<MoonMenuProps> = ({ moon, setMoon }) => {
       >
         Long Night Moon
       </MoonSelectButton>
+      <MoonSelectButton
+        show={moon === EMoon.wolf || isOpen}
+        selected={moon === EMoon.wolf}
+        background={"#dabd38"}
+        onClick={() => onClickMoonButton(EMoon.wolf)}
+      >
+        Wolf Moon
+      </MoonSelectButton>
     </div>
   );
 };
@@ -244,6 +251,7 @@ const moonCSS: { [key in EMoon]: string } = {
   beaver: ` background-color: #1a0540;`,
   starfield: ` background-color: #1a0540;`,
   longnight: ` background-color: #1a0540;`,
+  wolf: ` background-color: #1a0540;`,
 };
 
 type BackdropProps = {

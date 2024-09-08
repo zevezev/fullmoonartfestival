@@ -1,6 +1,5 @@
 # The Full Moon Art Festival
-Is an ongoing collaborative art happening by Zev Izenberg.
-Check the page for the latest event info.
+this website documents the many art gatherings done by the Moon People in 2023 and 2024.
 https://zevezev.github.io/fullmoonartfestival/
 
 
